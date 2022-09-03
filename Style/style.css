@@ -103,7 +103,7 @@ nav h2 {
   font-weight: 500;
   color: var(--red);
 }
-.bi {
+.burger {
   color: var(--red);
   cursor: pointer;
   position: absolute;
@@ -141,32 +141,29 @@ nav h2 {
   font-variant: small-caps;
   opacity: 0.8;
 }
-.active {
-  background-color: #717171;
-}
 .hidden {
-  opacity:0;
+  opacity: 0;
 }
 .console-container {
-  font-family:Khula;
-  font-size:4em;
-  text-align:center;
-  height:200px;
-  width:600px;
-  display:block;
-  position:absolute;
-  color:white;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  margin:auto;
+  font-family: Poppins;
+  font-size: 4em;
+  text-align: center;
+  height: 200px;
+  width: 600px;
+  display: block;
+  position: absolute;
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 .console-underscore {
-   display:inline-block;
-  position:relative;
-  top:0em;
-  left:10px;
+  display: inline-block;
+  position: relative;
+  top: 0em;
+  left: 10px;
 }
 section {
   padding: 3rem 6rem;
@@ -238,6 +235,7 @@ ol li {
 ol li a {
   color: var(--black);
   font-variant: normal;
+  font-size: 2rem;
 }
 h5 {
   color: #888;
@@ -249,4 +247,12 @@ h5 a {
 }
 h5 a:hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 500px) {
+  .console-container {
+    font-size: 2rem;
+  }
+  .text {
+    font-size: 2rem;
+  }
 }
