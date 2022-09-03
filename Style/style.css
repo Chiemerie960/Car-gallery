@@ -248,11 +248,31 @@ h5 a {
 h5 a:hover {
   text-decoration: underline;
 }
+@media screen and (max-width: 700px) {
+  .console-container {
+    font-size: 2.8rem;
+  }
+  .container {
+    justify-content: center;
+  }
+  .card {
+    width: 100%;
+  }
+  .card img {
+    object-position: center;
+  }
+}
 @media screen and (max-width: 500px) {
   .console-container {
     font-size: 2rem;
   }
   .text {
     font-size: 2rem;
+  }
+  section {
+    justify-content: center;
+  }
+  .container {
+    justify-content: center;
   }
 }
