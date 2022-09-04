@@ -250,6 +250,9 @@ h5 a:hover {
 }
 @media screen and (max-width: 700px) {
   .console-container {
+    width: 100%;
+    max-width: 500px;
+    height: fit-content;
     font-size: 2.8rem;
   }
   .container {
@@ -261,10 +264,21 @@ h5 a:hover {
   .card img {
     object-position: center;
   }
+  .burger {
+    right: 1rem;
+    top: 1.8rem;
+  }
+
 }
 @media screen and (max-width: 500px) {
+  nav {
+    padding: 2rem 1rem;
+  }
   .console-container {
     font-size: 2rem;
+    width: 100%;
+    max-width: 300px;
+    height: fit-content;
   }
   .text {
     font-size: 2rem;
